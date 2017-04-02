@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Javascript Example</title>
+    <link rel="stylesheet" type="text/css" href="style/Test1.css">
+    
+    <script type="text/javascript">
+    function substitute() {
+        var myValue = document.getElementById('myTextBox').value;
+        if (myValue.length === 0) {
+            alert('Please enter a real value');
+            return;
+        }
+        var myTitle = document.getElementById('heading1');
+        myTitle.innerHTML = myValue;
+    }
+
+
+    // var someValue = 24;
+    // if(someValue === 24)
+    //  alert('Welcome to the first test');
+    </script>
+</head>
+
+<body>
+    <h1 id="heading1">Javascript Example</h1>
+    <h2>Keep learining</h2>
+    <input type="text" id="myTextBox">
+    <input type="submit" value="Click Me" onclick="substitute()">
+    <ul>
+        <li>Home</li>
+        <li><a href="page2.html">page2</a></li>
+        <li><a href="page3.html">page3</a></li>
+    </ul>
+    <h2 class="secondary">This is my homepage</h2>
+    <p>And all of my homepage content</p>
+    <p>And more content in page 2 and page 3</p>
+</body>
+
+</html>

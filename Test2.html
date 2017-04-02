@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Javascript functions</title>
+    <script>
+/*    function myNewFunction() {
+        alert('Good evening');
+    }
+
+
+
+    function myNewFunction(myValue) {
+    	alert("howdy, " + myValue);
+    }
+    myNewFunction("partner");
+
+
+
+	function add(firstNumber, secondNumber) {
+		return firstNumber + secondNumber;
+	}
+	var myResult = add(1, 2);
+	alert(myResult);
+
+
+
+	function add() {
+		var tempValue = 0;
+		for (i = 0; i < arguments.length; i++) {
+			tempValue += arguments[i];
+		}
+		return tempValue;
+	}
+	var myResult = add(1, 2, 3, 4, 5);
+	alert(myResult);
+
+
+
+	var addMe = function() {
+		return arguments[0] + arguments[1];
+	};
+	var myNewValue = addMe(1, 2);
+	alert(myNewValue);
+
+
+
+	var myResult = (function() {
+		return arguments[0] + arguments[1];
+	})(1, 2);
+	alert(myResult);
+*/
+
+	alert((function() {
+		return arguments[0] + arguments[1];
+	})(1, 2));
+
+    </script>
+</head>
+
+<body>
+    <h1>Javascript functions</h1>
+    <input type="submit" value="Click me" onclick="myNewFunction();">
+</body>
+
+</html>

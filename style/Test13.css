@@ -1,0 +1,71 @@
+    body {
+    margin: 5;
+}
+
+header {
+    background: #999;
+    color: white;
+    padding: 15px 15px 0 15px;
+}
+
+header h1 {
+    margin: 0;
+    display: inline;
+}
+
+nav ul {
+    margin: 0;
+    display: inline;
+    padding: 0 0 0 15px;
+}
+
+nav ul li {
+    background: black;
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px 15px;
+}
+
+nav ul li a {
+    color: white;
+}
+
+.row {
+    clear: both;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.col {
+    background: #333;
+    display: inline-block;
+    color: white;
+    width: 30%;
+    margin: .5%;
+    padding: .5%;
+    border-radius: 5px;
+    /*float: left;*/
+}
+
+.panel.panel-default {
+    width: 600px;
+    margin: 20px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+
+footer {
+    clear: both;
+    /*clear float left and float right*/
+}

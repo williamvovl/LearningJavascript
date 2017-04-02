@@ -1,0 +1,20 @@
+body {
+	background: #9CEA4E;
+	font-family: arial;
+}
+
+h1, h2, li {
+	color: #F04848;
+}
+
+p {
+	background: #666;
+	color: white;
+	padding: 10px; /*Top Right Bottom Left or TopBottom LeftRight or All*/
+}
+
+
+.secondary{
+	background: none;
+	color: #5666DE;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Javascript Arrays</title>
+    <script type="text/javascript">
+    /*
+            var candidates = [];
+            candidates[0] = "locke";
+            candidates[1] = "reyes";
+            candidates[2] = "ford";
+
+            alert("Jacob chooses: " + candidates[1]);
+
+
+
+            var candidates = ["locke", "reyes", "ford"];
+            alert("Jacob chooses: " + candidates[1]);
+
+        */
+
+        // Associative arrays
+        var caveList = [];
+        caveList['locke'] = 4;
+        caveList["Reyes"] = 8;
+        caveList["ford"] = 15;
+
+        alert("Locke's number: " + caveList["locke"]);
+
+
+    </script>
+</head>
+
+<body>
+    <h1>Javascript Arrays</h1>
+    <p id="p1">Flight details: </p>
+    <script type="text/javascript">
+    var flightDate = new Date("September 22, 2004");
+    var myValues = ["New York", 815, flightDate];
+
+    for (var i in myValues) {
+        document.getElementById('p1').innerHTML += (myValues[i] + " ");
+    }
+    </script>
+</body>
+
+</html>

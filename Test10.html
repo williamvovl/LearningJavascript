@@ -1,0 +1,37 @@
+<html>
+<head>
+<script type="text/javascript">
+    function validate()
+    {
+        var field1 = document.getElementById("field1");
+        var saved  = document.getElementById("field1_save");
+        if (field1.value < 0 || field1.value > 10)
+        {
+            alert("Field1 value of " + field1.value + " is invalid");
+
+            // Change the value back to the previous valid answer
+            field1.value = saved.value;
+            return false;
+        }
+
+        // Save the valid input
+        saved.value = field1.value;
+        return true;
+    }
+</script>
+</head>
+
+<body>
+Test User Input
+
+<div>
+	<form name="form1"   id="form1" method="post">
+	<input name="field1" id="field1" type="text" value="2" onblur="validate();"/> 
+	 </br></br>
+	<input name="field1_save" id="field1_save" type="" value="2" />
+</div>
+
+<input name="btnSubmit" type="submit" value="Submit" />                             
+</form>
+</body>
+</html>
